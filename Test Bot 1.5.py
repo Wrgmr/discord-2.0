@@ -163,7 +163,7 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
     if message.content.startswith('$version'):
-        await message.channel.send('1.3')
+        await message.channel.send('1.5')
 
     await client.process_commands(message)
 #this block is to respond to set messages - note the last line allows commands to be recieved
