@@ -488,7 +488,9 @@ async def locations(ctx, arg1):
     for row in cur.execute("SELECT * FROM characterLoc WHERE character = ?", search):
        i = i + 1
        output = output + (str(i) + " - " + row[0] + " - " + row[1] + ' \n ')
-
+       print(row)
+       print(row[1])
+       print(row[2])
     await ctx.send(output)     
 
        
