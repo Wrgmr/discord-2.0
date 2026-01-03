@@ -189,7 +189,7 @@ async def roll(ctx, rollArg):
 
     rollOutputs = []
     sumTotal = 0
-    numberRolls = int(rollOutput[0])-1
+    numberRolls = int(rollOutput[0])
     secondOutput = ""
     #declares variables - two empty variables and one variable as number of dice to roll
     
