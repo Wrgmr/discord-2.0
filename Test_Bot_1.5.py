@@ -33,7 +33,7 @@ con = sqlite3.connect("charMovement.db")
 cur = con.cursor()
 #-------------------------------------------------------------------------------------------------
 cur.execute("CREATE TABLE IF NOT EXISTS characterLoc(character, movement)")
-conn.commit()
+con.commit()
 #-------------------------------------------------------------------------------------------------
 
 # below defines all dictionaries used for the cardGen function
